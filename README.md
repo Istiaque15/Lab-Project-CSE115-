@@ -2,7 +2,7 @@
 
 [comment]: <> ()
 
-# Project name: 
+# Project name: Library Management System 
 <h3> By 
 </h3>
 
