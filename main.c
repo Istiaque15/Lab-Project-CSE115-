@@ -155,7 +155,7 @@ void login_h(void){
 }
 
 
-void addBook(){
+void addBook(void){
     char myDate[12];
     time_t t = time(NULL);
     struct tm tm = *localtime(&t);
@@ -182,7 +182,7 @@ void addBook(){
 }
 
 
-void booksList(){
+void booksList(void){
 
     system("cls");
     printf("<== Available Books ==>\n\n");
@@ -196,7 +196,7 @@ void booksList(){
     fclose(fp);
 }
 
-void del(){
+void del(void){
     int id, f=0;
     system("cls");
     printf("<== Remove Books ==>\n\n");
@@ -231,7 +231,7 @@ void del(){
 }
 
 
-void issueBook(){
+void issueBook(void){
 
     char myDate[12];
     time_t t = time(NULL);
@@ -283,7 +283,7 @@ void issueBook(){
     fclose(fp);
 }
 
-void issueList(){
+void issueList(void){
     system("cls");
     printf("<== Book Issue List ==>\n\n");
 
